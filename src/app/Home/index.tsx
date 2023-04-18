@@ -13,19 +13,19 @@ export default function Home() {
         <div className="flex flex-row space-x-4 text-lg mt-4">
           <a
             className="border-b-2 border-transparent px-1 text-neutral-900 hover:text-neutral-1000 hover:border-b-blue-400"
-            href="/projects"
+            href="/#/projects"
           >
             Projects
           </a>
           <a
             className="border-b-2 border-transparent px-1 text-neutral-900 hover:text-neutral-1000 hover:border-b-blue-400"
-            href="/resume"
+            href="/#/resume"
           >
             Resume
           </a>
           <a
             className="border-b-2 border-transparent px-1 text-neutral-900 hover:text-neutral-1000 hover:border-b-blue-400"
-            href="/about"
+            href="/#/about"
           >
             About
           </a>

@@ -4,14 +4,17 @@ export interface INavbarProps {}
 
 export default function Navbar(props: INavbarProps) {
   const navigation = [
-    { label: "iCatholic", link: "/icatholic" },
-    { label: "OpenGames", link: "/opengames" },
+    { label: "iCatholic", link: "/#/icatholic" },
+    { label: "OpenGames", link: "/#/opengames" },
   ];
 
   return (
     <nav className="Navbar bg-neutral-100 fixed flex w-full h-16 overflow-x-hidden">
       <div className="shadow-lg px-4 md:px-12 flex items-center border-b border-neutral-400 w-full">
-        <a className="text-3xl font-bold text-neutral-1000 mr-12" href="/">
+        <a
+          className="text-3xl font-bold text-neutral-1000 mr-12 hover:text-blue-400"
+          href="/"
+        >
           OZDV
         </a>
         <div className="space-x-8 flex h-full">
