@@ -6,11 +6,13 @@ export default function Home() {
   return (
     <div className="Homepage h-full">
       <div className="flex flex-col items-center h-full mt-20">
-        <div className="text-8xl text-neutral-1000 font-thin">Cam Davies</div>
-        <div className="text-3xl text-neutral-1000 mt-4">
+        <div className="md:text-8xl text-6xl text-neutral-1000 font-thin text-center whitespace-nowrap">
+          Cam Davies
+        </div>
+        <div className="md:text-3xl text-2xl text-neutral-1000 mt-4">
           Software Developer
         </div>
-        <div className="flex flex-row space-x-4 text-lg mt-4">
+        {/* <div className="flex flex-row space-x-4 text-lg mt-4">
           <a
             className="border-b-2 border-transparent px-1 text-neutral-900 hover:text-neutral-1000 hover:border-b-blue-400"
             href="/#/projects"
@@ -29,7 +31,7 @@ export default function Home() {
           >
             About
           </a>
-        </div>
+        </div> */}
         <div className="mt-4 flex flex-row space-x-6">
           <Link target="_blank" to="https://www.linkedin.com/in/ozdv/">
             <Button
