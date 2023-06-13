@@ -6,6 +6,7 @@ import ErrorPage from "./ErrorPage";
 import ProjectPage from "./Projects";
 import ResumePage from "./Resume";
 import AboutPage from "./About";
+import PrivacyPolicy from "./Privacy";
 
 export default function AppRouter() {
   return (
@@ -17,6 +18,7 @@ export default function AppRouter() {
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/resume" element={<ResumePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </HashRouter>
