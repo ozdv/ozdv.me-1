@@ -18,6 +18,7 @@ export default function PrivacyPolicy() {
           <a
             href="https://www.privacypolicies.com/privacy-policy-generator/"
             target="_blank"
+            rel="noreferrer"
           >
             Privacy Policy Generator
           </a>
