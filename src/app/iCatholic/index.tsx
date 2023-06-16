@@ -77,14 +77,6 @@ export default function ICatholic() {
           <span className="text-neutral-950 text-xl">And more!</span>
         </li>
       </ul>
-
-      {/* <div className="flex justify-center mt-6">
-        <div className="text-center text-base text-neutral-1000 mt-2 border-b border-blue-400 w-fit justify p-1">
-          Sign up for beta now
-        </div> 
-      </div>*/}
-
-      {/* "" */}
     </div>
   );
 }
